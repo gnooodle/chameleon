@@ -11,7 +11,7 @@
  * Chameleon                                                                *
  * noodle                                                                   *
  * version: 1                                                               *
- * url: https://github.com/gnooodle/chameleon                                        *
+ * url: https://github.com/gnooodle/chameleon                               *
 ****************************************************************************/
 
 /****************************************************************************
@@ -247,7 +247,7 @@ user_pref("layout.word_select.eat_space_to_next_word", false);
 user_pref("signon.rememberSignons", true);
 
 /****************************************************************************
- * SCROLLING                                                         *
+ * SCROLLING                                                                *
 ****************************************************************************/
 // Enter your scrolling overrides below this line:
 user_pref("general.autoScroll", false);
