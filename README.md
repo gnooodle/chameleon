@@ -7,6 +7,8 @@ Make sure to set `toolkit.legacyUserProfileCustomizations.stylesheets` to `true`
 
 Add the `user.js` and `chrome/userChrome.css` to the directory of the Firefox profile in use.
 
+Note: `chrome/userChrome.css` uses the Menlo font by default, not available on all systems, therefore a synonymous mono-spaced font is recommended.
+
 ### Recommendations
 
 Extensions:
@@ -19,9 +21,12 @@ Extensions:
 ! buffer fix, if still relevant
 www.youtube.com##+js(nano-stb, resolve(1), 5000, 0.001)
 
-! if using duckduckgo, removes annoying popup(s)
-duckduckgo.com##.js-badge-main-msg.badge-link__wrap
-
 ! often annoying additions to the youtube homepage
 www.youtube.com###foreground-content
+
+! if using duckduckgo, removes annoying popup(s) - (unix)
+duckduckgo.com##.js-badge-main-msg.badge-link__wrap
+
+! annoying duckduck go popup(s) - (windows)
+duckduckgo.com##.english.atb-new.js-badge-link.ddg-extension-hide.badge-link--serp.badge-link
 ```
