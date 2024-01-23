@@ -24,9 +24,6 @@ www.youtube.com##+js(nano-stb, resolve(1), 5000, 0.001)
 ! often annoying additions to the youtube homepage
 www.youtube.com###foreground-content
 
-! if using duckduckgo, removes annoying popup(s) - (unix)
+! if using duckduckgo, removes annoying popup(s)
 duckduckgo.com##.js-badge-main-msg.badge-link__wrap
-
-! annoying duckduck go popup(s) - (windows)
-duckduckgo.com##.english.atb-new.js-badge-link.ddg-extension-hide.badge-link--serp.badge-link
 ```
