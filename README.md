@@ -1,4 +1,4 @@
-# chameleon
+# chameleon (deprecated)
 A private Firefox configuration
 
 ### Install
